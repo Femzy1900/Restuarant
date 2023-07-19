@@ -7,8 +7,6 @@ function App() {
     <div className="App">
       <Navbar />
       <Main />
-      {/* <Tuts />
-      <State /> */}
     </div>
   );
 }
