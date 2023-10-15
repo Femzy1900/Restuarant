@@ -1,14 +1,23 @@
-import Main from "./components/main";
-import Navbar from "./components/Navbar";
+import React from 'react';
 
+import { AboutUs, Chef, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { Navbar } from './components';
+import FindUs from './container/Findus/FindUs';
+import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Main />
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <Navbar />
+    <Header />
+    <AboutUs />
+    <SpecialMenu />
+    <Chef />
+    <Intro />
+    <Laurels />
+    <Gallery />
+    <FindUs />
+    <Footer />
+  </div>
+);
 
 export default App;
