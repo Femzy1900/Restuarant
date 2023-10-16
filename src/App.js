@@ -1,7 +1,7 @@
 // App.js
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { AboutUs, Chef, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { AboutUs, Chef, Footer, Gallery, Header, Intro, Laurels, SpecialMenu, LoginPage} from './container';
 import { Navbar } from './components';
 import FindUs from './container/Findus/FindUs';
 import "./App.css"
@@ -19,7 +19,7 @@ const App = () => (
         <Route path="/laurels" element={<Laurels />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/find-us" element={<FindUs />} />
-        
+        <Route path="/login" element={<LoginPage />} />
       </Routes>
       <Footer />
     </div>
