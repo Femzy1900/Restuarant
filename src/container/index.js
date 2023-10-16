@@ -8,6 +8,7 @@ import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
 import LoginPage from './Login/Login';
+import Register from './Register/Register';
 
 export {
   AboutUs,
@@ -20,4 +21,5 @@ export {
   Laurels,
   SpecialMenu,
   LoginPage,
+  Register,
 };

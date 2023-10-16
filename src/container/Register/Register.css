@@ -18,12 +18,17 @@
     border-radius: 15px;
     margin-top: 20px;
   }
+
+  form h1 {
+    text-align: center;
+    padding: 1rem;
+  }
   .form-group {
     margin-bottom: 10px;
   }
   .input {
     width: 600px;
-    height: 30vh;
+    height: 35vh;
     padding: 2rem;
   }
   label {
@@ -63,10 +68,6 @@
     color: white;
     text-align: center;
     padding-top: 10px;
-  }
-  form h1 {
-    text-align: center;
-    padding: 1rem;
   }
   .register a {
     color: blue;
